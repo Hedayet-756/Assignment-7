@@ -6,13 +6,10 @@ import Footer from './Footer';
 
 const Homepage = () => {
     return (
-        <div>
-            <div className='bg-base-200'>
-                <Banner />
-                <States />
-                <AllFriends />
-            </div>
-            <Footer />
+        <div className='bg-base-200'>
+            <Banner />
+            <States />
+            <AllFriends />
         </div>
     );
 };

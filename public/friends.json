@@ -13,7 +13,7 @@
             ],
             "bio": "Studied together in college, now working in marketing.",
             "goal": "Catch up over coffee",
-            "next-due_date": "2026-04-10"
+            "next_due_date": "2026-04-10"
         },
         {
             "id": 2,
@@ -28,7 +28,7 @@
             ],
             "bio": "Colleague from previous job, fitness enthusiast.",
             "goal": "Plan a gym session together",
-            "next-due_date": "2026-04-18"
+            "next_due_date": "2026-04-18"
         },
         {
             "id": 3,
@@ -43,7 +43,7 @@
             ],
             "bio": "Cousin who lives nearby, very supportive.",
             "goal": "Visit during the weekend",
-            "next-due_date": "2026-04-25"
+            "next_due_date": "2026-04-25"
         },
         {
             "id": 4,
@@ -58,7 +58,7 @@
             ],
             "bio": "Former roommate, now working abroad.",
             "goal": "Schedule a video call",
-            "next-due_date": "2026-04-05"
+            "next_due_date": "2026-04-05"
         },
         {
             "id": 5,
@@ -73,7 +73,7 @@
             ],
             "bio": "Neighbor and close friend, loves cooking.",
             "goal": "Cook dinner together",
-            "next-due_date": "2026-04-20"
+            "next_due_date": "2026-04-20"
         },
         {
             "id": 6,
@@ -88,7 +88,7 @@
             ],
             "bio": "Friend from startup community, software developer.",
             "goal": "Discuss new project ideas",
-            "next-due_date": "2026-04-28"
+            "next_due_date": "2026-04-28"
         },
         {
             "id": 7,
@@ -103,7 +103,7 @@
             ],
             "bio": "High school friend, now a freelance artist.",
             "goal": "Attend an art exhibition together",
-            "next-due_date": "2026-04-17"
+            "next_due_date": "2026-04-17"
         },
         {
             "id": 8,
@@ -118,7 +118,7 @@
             ],
             "bio": "Business mentor who guided early career.",
             "goal": "Schedule a mentorship meeting",
-            "next-due_date": "2026-04-01"
+            "next_due_date": "2026-04-01"
         },
         {
             "id": 9,
@@ -133,7 +133,7 @@
             ],
             "bio": "Travel buddy who loves exploring new places.",
             "goal": "Plan next trip",
-            "next-due_date": "2026-04-26"
+            "next_due_date": "2026-04-26"
         },
         {
             "id": 10,
@@ -148,7 +148,7 @@
             ],
             "bio": "Local football teammate.",
             "goal": "Join weekend match",
-            "next-due_date": "2026-04-19"
+            "next_due_date": "2026-04-19"
         },
         {
             "id": 11,
@@ -163,7 +163,7 @@
             ],
             "bio": "College debate partner, now a lawyer.",
             "goal": "Reconnect over lunch",
-            "next-due_date": "2026-04-08"
+            "next_due_date": "2026-04-08"
         },
         {
             "id": 12,
@@ -178,7 +178,7 @@
             ],
             "bio": "Photographer friend, very creative.",
             "goal": "Go on a photo walk",
-            "next-due_date": "2026-04-30"
+            "next_due_date": "2026-04-30"
         }
     ]
 }

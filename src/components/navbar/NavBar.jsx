@@ -12,7 +12,7 @@ const NavBar = () => {
                 <NavLink
                     to="/"
                     className={({ isActive }) =>
-                        `font-semibold mr-2 flex items-center gap-1 p-2 rounded-lg ${isActive ? "text-white bg-green-500" : "text-gray-700 hover:bg-gray-100"}`
+                        `font-semibold mr-2 flex items-center gap-1 p-2 rounded-lg ${isActive ? "text-white bg-[#244D3F]" : "text-gray-700 hover:bg-gray-100"}`
                     }
                 >
                     <img src={homeIcon} alt="Home" height="24" width="20" />
@@ -23,7 +23,7 @@ const NavBar = () => {
                 <NavLink
                     to="/timeline"
                     className={({ isActive }) =>
-                        `font-semibold mr-2 flex items-center gap-1 p-2 rounded-lg ${isActive ? "text-white bg-green-500" : "text-gray-700 hover:bg-gray-100"}`
+                        `font-semibold mr-2 flex items-center gap-1 p-2 rounded-lg ${isActive ? "text-white bg-[#244D3F]" : "text-gray-700 hover:bg-gray-100"}`
                     }
                 >
                     <img src={clock} alt="Timeline" height="24" width="20" />
@@ -34,7 +34,7 @@ const NavBar = () => {
                 <NavLink
                     to="/stats"
                     className={({ isActive }) =>
-                        `font-semibold mr-2 flex items-center gap-1 p-2 rounded-lg ${isActive ? "text-white bg-green-500" : "text-gray-700 hover:bg-gray-100"}`
+                        `font-semibold mr-2 flex items-center gap-1 p-2 rounded-lg ${isActive ? "text-white bg-[#244D3F]" : "text-gray-700 hover:bg-gray-100"}`
                     }
                 >
                     <img src={stats} alt="Stats" height="24" width="20" />
@@ -60,7 +60,7 @@ const NavBar = () => {
                                 }
                             </ul>
                         </div>
-                        <h2 className="font-bold text-xl items-center text-center">Keen Keeper</h2>
+                        <h2 className="font-bold text-xl items-center text-center">Keen <span className="text-[#244D3F]">Keeper</span></h2>
                     </div>
 
                     <div className="navbar-end gap-4 sm: hidden lg:flex">

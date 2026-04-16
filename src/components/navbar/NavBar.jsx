@@ -60,7 +60,7 @@ const NavBar = () => {
                                 }
                             </ul>
                         </div>
-                        <h2 className="font-bold text-xl items-center text-center">Keen <span className="text-[#244D3F]">Keeper</span></h2>
+                        <h2 className="font-bold text-2xl absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 lg:flex items-center justify-center lg:justify-start">Keen <span className="text-[#244D3F]">Keeper</span></h2>
                     </div>
 
                     <div className="navbar-end gap-4 sm: hidden lg:flex">

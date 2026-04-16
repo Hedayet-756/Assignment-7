@@ -1,0 +1,184 @@
+{
+    "friends": [
+        {
+            "id": 1,
+            "name": "Ayesha Rahman",
+            "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+            "email": "ayesha.rahman@gmail.com",
+            "days_since_contact": 45,
+            "status": "overdue",
+            "tags": [
+                "school",
+                "close friend"
+            ],
+            "bio": "Studied together in college, now working in marketing.",
+            "goal": "Catch up over coffee",
+            "next-due_date": "2026-04-10"
+        },
+        {
+            "id": 2,
+            "name": "Tanvir Hasan",
+            "picture": "https://randomuser.me/api/portraits/men/34.jpg",
+            "email": "tanvir.hasan@yahoo.com",
+            "days_since_contact": 20,
+            "status": "almost due",
+            "tags": [
+                "work",
+                "gym"
+            ],
+            "bio": "Colleague from previous job, fitness enthusiast.",
+            "goal": "Plan a gym session together",
+            "next-due_date": "2026-04-18"
+        },
+        {
+            "id": 3,
+            "name": "Nusrat Jahan",
+            "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+            "email": "nusrat.jahan@hotmail.com",
+            "days_since_contact": 5,
+            "status": "on-track",
+            "tags": [
+                "family",
+                "cousin"
+            ],
+            "bio": "Cousin who lives nearby, very supportive.",
+            "goal": "Visit during the weekend",
+            "next-due_date": "2026-04-25"
+        },
+        {
+            "id": 4,
+            "name": "Imran Chowdhury",
+            "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+            "email": "imran.c@gmail.com",
+            "days_since_contact": 60,
+            "status": "overdue",
+            "tags": [
+                "university",
+                "roommate"
+            ],
+            "bio": "Former roommate, now working abroad.",
+            "goal": "Schedule a video call",
+            "next-due_date": "2026-04-05"
+        },
+        {
+            "id": 5,
+            "name": "Farhana Akter",
+            "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+            "email": "farhana.akter@gmail.com",
+            "days_since_contact": 15,
+            "status": "almost due",
+            "tags": [
+                "neighbor",
+                "friend"
+            ],
+            "bio": "Neighbor and close friend, loves cooking.",
+            "goal": "Cook dinner together",
+            "next-due_date": "2026-04-20"
+        },
+        {
+            "id": 6,
+            "name": "Rafiul Islam",
+            "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+            "email": "rafiul.islam@gmail.com",
+            "days_since_contact": 3,
+            "status": "on-track",
+            "tags": [
+                "startup",
+                "tech"
+            ],
+            "bio": "Friend from startup community, software developer.",
+            "goal": "Discuss new project ideas",
+            "next-due_date": "2026-04-28"
+        },
+        {
+            "id": 7,
+            "name": "Sabina Yasmin",
+            "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+            "email": "sabina.yasmin@gmail.com",
+            "days_since_contact": 35,
+            "status": "almost due",
+            "tags": [
+                "school",
+                "art"
+            ],
+            "bio": "High school friend, now a freelance artist.",
+            "goal": "Attend an art exhibition together",
+            "next-due_date": "2026-04-17"
+        },
+        {
+            "id": 8,
+            "name": "Mahmudul Karim",
+            "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+            "email": "mahmudul.karim@gmail.com",
+            "days_since_contact": 80,
+            "status": "overdue",
+            "tags": [
+                "business",
+                "mentor"
+            ],
+            "bio": "Business mentor who guided early career.",
+            "goal": "Schedule a mentorship meeting",
+            "next-due_date": "2026-04-01"
+        },
+        {
+            "id": 9,
+            "name": "Tania Sultana",
+            "picture": "https://randomuser.me/api/portraits/women/53.jpg",
+            "email": "tania.sultana@gmail.com",
+            "days_since_contact": 7,
+            "status": "on-track",
+            "tags": [
+                "travel",
+                "friend"
+            ],
+            "bio": "Travel buddy who loves exploring new places.",
+            "goal": "Plan next trip",
+            "next-due_date": "2026-04-26"
+        },
+        {
+            "id": 10,
+            "name": "Arif Hossain",
+            "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+            "email": "arif.hossain@gmail.com",
+            "days_since_contact": 25,
+            "status": "almost due",
+            "tags": [
+                "football",
+                "local"
+            ],
+            "bio": "Local football teammate.",
+            "goal": "Join weekend match",
+            "next-due_date": "2026-04-19"
+        },
+        {
+            "id": 11,
+            "name": "Mariam Khan",
+            "picture": "https://randomuser.me/api/portraits/women/61.jpg",
+            "email": "mariam.khan@gmail.com",
+            "days_since_contact": 50,
+            "status": "overdue",
+            "tags": [
+                "college",
+                "debate"
+            ],
+            "bio": "College debate partner, now a lawyer.",
+            "goal": "Reconnect over lunch",
+            "next-due_date": "2026-04-08"
+        },
+        {
+            "id": 12,
+            "name": "Shahidul Alam",
+            "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+            "email": "shahidul.alam@gmail.com",
+            "days_since_contact": 2,
+            "status": "on-track",
+            "tags": [
+                "photography",
+                "creative"
+            ],
+            "bio": "Photographer friend, very creative.",
+            "goal": "Go on a photo walk",
+            "next-due_date": "2026-04-30"
+        }
+    ]
+}

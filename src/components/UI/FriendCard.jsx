@@ -3,7 +3,7 @@ import { Link, Links } from 'react-router';
 
 const FriendCard = ({ friend }) => {
     return (
-        <Link className="card bg-base-100 shadow-sm p-4 rounded-2xl" >
+        <Link to={`/friendDetails/${friend.id}`} className="card bg-base-100 shadow-sm p-4 md:p-8  rounded-2xl " >
             <figure className='p-6'>
                 <img className='rounded-full h-[80px]'
                     src={friend.picture}

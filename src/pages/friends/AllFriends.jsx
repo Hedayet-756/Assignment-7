@@ -5,7 +5,7 @@ const friendsPromise = fetch('/friends.json').then(res => res.json());
 
 const AllFriends = () => {
     const friends = use(friendsPromise);
-    console.log('friends', friends);
+    // console.log('friends', friends);
     return (
         <div className='my-12 container bg-base-200 mx-auto'>
             <h2 className='font-bold text-3xl text-start mb-6'>Your Friends</h2>

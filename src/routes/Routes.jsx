@@ -4,8 +4,8 @@ import MainLayout from '../layout/MainLayout';
 import Homepage from '../pages/homepage/Homepage';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import FriendDetails from '../pages/friendDetails/FriendDetails';
-import Friends from '../pages/friends/Friends';
 import AllFriends from '../pages/friends/AllFriends';
+import Friends from '../pages/friends/Friends';
 
 export const router = createBrowserRouter([
     {

@@ -17,8 +17,10 @@ const FriendDetails = () => {
     const { id, name, email, picture, days_since_contact, status, tags, bio, goal, next_due_date
     } = expectedFriend;
 
+    const date = new Date(next_due_date).toLocaleDateString('en-US', { year: "numeric", month: "short", day: "numeric" })
+
     const { handleCall, handleText, handleVideo } = useContext(FriendContext);
-    console.log('friendContext', handleCall);
+    // console.log('friendContext', handleCall);
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-3 bg-base-200 shadow-sm container mx-auto mt-8 p-8" >
@@ -77,12 +79,12 @@ const FriendDetails = () => {
                         </div>
 
                         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
-                            <h2 className="text-3xl font-bold text-[#244D3F]">30</h2>
+                            <h2 className="text-3xl font-bold text-[#244D3F]">{goal}</h2>
                             <p className="text-gray-500 font-medium">Goal (Days)</p>
                         </div>
 
                         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
-                            <h2 className="text-3xl font-bold text-[#244D3F]">{next_due_date}</h2>
+                            <h2 className="text-3xl font-bold text-[#244D3F]">{date}</h2>
                             <p className="text-gray-500 font-medium">Next Due</p>
                         </div>
                     </div>

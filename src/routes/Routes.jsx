@@ -3,8 +3,9 @@ import { createBrowserRouter } from 'react-router';
 import MainLayout from '../layout/MainLayout';
 import Homepage from '../pages/homepage/Homepage';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
-import AllFriends from '../pages/friends/AllFriends';
 import FriendDetails from '../pages/friendDetails/FriendDetails';
+import Friends from '../pages/friends/Friends';
+import AllFriends from '../pages/friends/AllFriends';
 
 export const router = createBrowserRouter([
     {
@@ -12,12 +13,12 @@ export const router = createBrowserRouter([
         Component: MainLayout,
         children: [
             {
-                index: true,
+                path: "/",
                 element: <Homepage />,
             },
             {
                 path: "/friends",
-                element: <AllFriends />,
+                element: <Friends />,
             },
             {
                 path: "/friendDetails/:id",

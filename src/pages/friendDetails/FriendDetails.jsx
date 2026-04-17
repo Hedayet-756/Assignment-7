@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { BiPhoneCall } from 'react-icons/bi';
 import { MdOutlineTextsms, MdOutlineVideocam } from 'react-icons/md';
 import { PiArchiveBold, PiBellSimpleZBold } from 'react-icons/pi';
 import { RiDeleteBin6Line } from 'react-icons/ri';
 import { useLoaderData, useParams } from 'react-router';
+import { FriendContext } from '../../context/FriendContext';
 
 const FriendDetails = () => {
 
@@ -15,6 +16,9 @@ const FriendDetails = () => {
     // console.log('expectedFriend', expectedFriend);
     const { id, name, email, picture, days_since_contact, status, tags, bio, goal, next_due_date
     } = expectedFriend;
+
+    const { handleCall, handleText, handleVideo } = useContext(FriendContext);
+    console.log('friendContext', handleCall);
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-3 bg-base-200 shadow-sm container mx-auto mt-8 p-8" >
@@ -95,17 +99,17 @@ const FriendDetails = () => {
                 <div className="p-3 md:p-4 m-3 md:m-8 bg-base-200 bg-white rounded-2xl shadow-sm" >
                     <span className='text-gray-500 font-semibold'>Quick Check-In</span>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 mt-6">
-                        <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
+                        <div onClick={() => handleCall(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
                             <BiPhoneCall />
                             <p className="text-gray-500 font-medium">Call</p>
                         </div>
 
-                        <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
+                        <div onClick={() => handleText(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
                             <MdOutlineTextsms />
                             <p className="text-gray-500 font-medium">Text</p>
                         </div>
 
-                        <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
+                        <div onClick={() => handleVideo(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
                             <MdOutlineVideocam />
                             <p className="text-gray-500 font-medium">Video</p>
                         </div>

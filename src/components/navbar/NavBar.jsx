@@ -21,7 +21,7 @@ const NavBar = () => {
             </li>
             <li>
                 <NavLink
-                    to="/timeline"
+                    to="/friends"
                     className={({ isActive }) =>
                         `font-semibold mr-2 flex items-center gap-1 p-2 rounded-lg ${isActive ? "text-white bg-[#244D3F]" : "text-gray-700 hover:bg-gray-100"}`
                     }

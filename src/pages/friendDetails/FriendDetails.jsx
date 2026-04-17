@@ -101,17 +101,17 @@ const FriendDetails = () => {
                 <div className="p-3 md:p-4 m-3 md:m-8 bg-base-200 bg-white rounded-2xl shadow-sm" >
                     <span className='text-gray-500 font-semibold'>Quick Check-In</span>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 mt-6">
-                        <div onClick={() => handleCall(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
+                        <div onClick={() => handleCall(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3 cursor-pointer hover:bg-gray-100 transition-colors duration-200">
                             <BiPhoneCall />
                             <p className="text-gray-500 font-medium">Call</p>
                         </div>
 
-                        <div onClick={() => handleText(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
+                        <div onClick={() => handleText(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3 cursor-pointer hover:bg-gray-100 transition-colors duration-200">
                             <MdOutlineTextsms />
                             <p className="text-gray-500 font-medium">Text</p>
                         </div>
 
-                        <div onClick={() => handleVideo(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3">
+                        <div onClick={() => handleVideo(expectedFriend)} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-center items-center text-center gap-3 cursor-pointer hover:bg-gray-100 transition-colors duration-200">
                             <MdOutlineVideocam />
                             <p className="text-gray-500 font-medium">Video</p>
                         </div>

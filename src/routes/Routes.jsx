@@ -6,6 +6,7 @@ import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import FriendDetails from '../pages/friendDetails/FriendDetails';
 import AllFriends from '../pages/friends/AllFriends';
 import Friends from '../pages/friends/Friends';
+import Charts from '../routes/charts/Charts';
 
 export const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ export const router = createBrowserRouter([
             {
                 path: "/friends",
                 element: <Friends />,
+            },
+            {
+                path: "/charts",
+                element: <Charts />,
             },
             {
                 path: "/friendDetails/:id",
